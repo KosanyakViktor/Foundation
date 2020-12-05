@@ -834,6 +834,7 @@ body {
   line-height: 28px;
   text-align: center;
   color: #2b292d;
+  margin-top: 20px;
 }
 .user-card:hover {
   background: #3141c5;
