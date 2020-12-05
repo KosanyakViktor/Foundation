@@ -18,6 +18,7 @@ body {
   }
 }
 @import "header.scss";
+@import "acquire.scss";
 @import "headline.scss";
 @import "about.scss";
 @import "customers.scss";
@@ -31,6 +32,146 @@ body {
 @import "order.scss";
 @import "footer.scss";
 
-@include mobile () {
+@include mobile {
+  .about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .about__one {
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 46px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    p {
+      font-size: 22px;
+      line-height: 32px;
+      color: #2b292d;
+      width: 80%;
+    }
+  }
+  .about__two {
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 46px;
+    padding-right: 15px;
+    p {
+      font-size: 22px;
+      line-height: 32px;
+      color: #2b292d;
+      width: 80%;
+    }
+  }
+  .customers {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: minmax(auto, 33.33%) minmax(auto, 33.33%) minmax(
+        auto,
+        33.33%
+      );
+    grid-template-rows: 94px 94px;
+    div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .nyt {
+    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    img {
+      width: 75%;
+    }
+  }
+  .forbes {
+    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    img {
+      width: 80%;
+    }
+  }
+  .apple {
+    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    img {
+      width: 35%;
+    }
+  }
+  .mashable {
+    border-bottom: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    img {
+      width: 70%;
+    }
+  }
+  .wsj {
+    border-bottom: 1px solid #e3e3e3;
+    border-right: 1px solid #e3e3e3;
+    img {
+      width: 50%;
+    }
+  }
+  .google {
+    border-bottom: 1px solid #e3e3e3;
 
+    img {
+      width: 70%;
+    }
+  }
+  .features {
+    display: none;
+  }
+  .team-inbox {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .wheel_image {
+    width: 100%;
+    padding: 0px;
+    img {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    p {
+      display: none;
+    }
+  }
+  .name_team_inbox {
+    margin: 0px;
+  }
+  .team_inbox_text {
+    width: 100%;
+  }
+  .team_margin {
+    margin: 0px;
+    h1 {
+      font-size: 40px;
+      line-height: 40px;
+      letter-spacing: -0.357143px;
+      margin-top: 17px;
+      margin-bottom: 30px;
+    }
+    p {
+      width: 85%;
+    }
+  }
+  .team_comments {
+    width: 82.3%;
+    padding: 20px;
+  }
+  .team__line {
+    width: 100%;
+    left: 0;
+  }
 }
