@@ -1,0 +1,258 @@
+.logo-vertical__description {
+
+}
+.useful-link {
+
+}
+.footer-links {
+  margin-left: 15px;
+}
+.footer_navigation {
+  margin-bottom: 31px;
+}
+.social-links {
+  margin-bottom: 23px;
+  a {
+    text-decoration: none;
+  }
+  img {
+    margin-right: 20px;
+  }
+}
+.nav_links {
+  width: 265px;
+  ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  h3 {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    color: #2b292d;
+    margin: 0;
+    margin-bottom: 18px;
+  }
+  li {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+}
+.downolads {
+  margin-top: 31px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  .appstore {
+   width: 135px;
+   margin-right: 5px;
+   height: 40px;
+  }
+  .playstore {
+    margin-left: 5px;
+    width: 116px;
+    height: 40px;
+  }
+}
+.mobile_line {
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color:  RGBA(43, 41, 45, 0.1);
+  padding: 0;
+  margin: 0;
+}
+.logo_vertical {
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+.logo-vertical__title {
+
+}
+.logo-vertical__description {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  margin: 0;
+  color: rgba(43, 41, 45, 0.6);
+}
+.logo-vertical__name {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+}
+.logo-vertical__image {
+  width: 60px;
+  height: 60px;
+}
+.additional-navigation {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.footer_navigation {
+  font-size: 14px;
+  line-height: 22px;
+  a {
+    margin-right: 20px;
+    text-decoration: none;
+  }
+}
+
+@media (max-width:399px) {
+  .logo_footer {
+    display: none;
+  }
+  .footer-description {
+    display: none;
+  }
+  .footer__line {
+    display: none;
+  }
+}
+@media (min-width: 400px) {
+  .logo_vertical {
+    display: none;
+  }
+  .footer-links {
+    height: 50px;
+    width: 1140px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      font-size: 14px;
+      line-height: 22px;
+      color: rgba(43, 41, 45, 0.6);
+      text-decoration: none;
+      margin-left: 10px;
+      &:hover {
+        color: black;
+      }
+    }
+  }
+  .footer__line {
+    border-top: 0.5px solid RGBA(43, 41, 45, 0.1);
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+  .social-links {
+    margin-left: auto;
+    a {
+      margin-left: 20px;
+    }
+  }
+  .useful-link {
+    display: flex;
+  }
+  .logo_footer {
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  .about-company {
+    margin-top: 44px;
+  }
+  .footer-description {
+    line-height: 26px;
+    font-size: 18px;
+    width: 360px;
+    margin-top: 26px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+  .downolads {
+    margin-top: 25px;
+    img {
+      padding-right: 10px;
+    }
+  }
+  .additional-navigation {
+    margin-top: 60px;
+    margin-left: auto;
+    display: flex;
+  }
+  .additional-navigation__column {
+    margin-right: 29px;
+  }
+  .nav_links {
+    width: 265px;
+    ul {
+      list-style-type: none;
+      padding: 0px;
+      margin: 0px;
+    }
+    h3 {
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 28px;
+      color: #2b292d;
+      margin: 0;
+      margin-bottom: 18px;
+    }
+    li {
+      padding: 0;
+      margin: 0;
+      font-size: 18px;
+      line-height: 30px;
+      color: rgba(43, 41, 45, 0.6);
+    }
+  }
+  .useful-link {
+    width: 1140px;
+    margin: 0 auto;
+    height: 338px;
+  }
+  .useful_link_one {
+    padding-top: 43px;
+    display: flex;
+    padding-right: 130px;
+  }
+  .useful_company {
+    display: flex;
+    div {
+      margin-right: 10px;
+    }
+  }
+  .logo__name_footer {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2b292d;
+    margin-left: -10px;
+  }
+  .logo__description_footer {
+    font-size: 20px;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6);
+  }
+  .logo_footer {
+    display: flex;
+  }
+  .logo__text_footer {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    margin-top: 6px;
+    p {
+      margin: 0px 0px;
+    }
+  }
+  .header_menu_mobile {
+    display: none;
+  }
+}

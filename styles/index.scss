@@ -1,0 +1,36 @@
+@import "media.scss";
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.wrapper {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width:400px) {
+  .wrapper {
+    width: 1400px;
+    margin: 0 auto;
+    min-height: 100vh;
+    margin-top: auto;
+    overflow: hidden;
+    
+  }
+}
+@import "header.scss";
+@import "headline.scss";
+@import "about.scss";
+@import "customers.scss";
+@import "features.scss";
+@import "inbox.scss";
+@import "communication.scss";
+@import "audiences.scss";
+@import "order.scss";
+@import "feedback.scss";
+@import "hiring.scss";
+@import "order.scss";
+@import "footer.scss";
+
+@include mobile () {
+
+}

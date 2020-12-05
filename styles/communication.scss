@@ -1,0 +1,97 @@
+.communicate-better-text {
+  button {
+    width: 160px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 13px;
+    color: #fff;
+    border: none;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 1e-5) 100%
+      ),
+      #3040c4;
+    background-blend-mode: overlay, normal;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
+      inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+  }
+}
+.communication {
+  display: flex;
+  padding-left: 130px;
+  padding-top: 110px;
+  padding-right: 190px;
+}
+.communication-better-text {
+  width: 50%;
+  padding-right: 120px;
+  h1 {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    color: #2b292d;
+    margin: 0px;
+  }
+}
+.communication-better-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.communication_better_p {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 34px;
+  color: #0189d1;
+  margin-bottom: 25px;
+}
+.communication_better_p_two {
+  font-size: 24px;
+  line-height: 34px;
+  width: 90%;
+  color: #2b292d;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.line-grey {
+  width: 150px;
+  background: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  height: 1px;
+  margin-bottom: 40px;
+}
+
+.subscriptions {
+  padding-top: 25px;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-bottom: 110px;
+}
+.subscriptions_grid {
+  display: grid;
+  grid-template-columns: minmax(auto, 33.33%) minmax(auto, 33.33%) minmax(
+      auto,
+      33.33%
+    );
+}
+.subscriptions_grid_p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #2b292d;
+  width: 90%;
+  a {
+    font-size: 18px;
+    color: #3142c6;
+    line-height: 26px;
+    &:hover {
+      color: black;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+$sm:400px;
+
+@mixin mobile () {
+   @media(max-width:$sm) {
+       @content;
+   }
+}
